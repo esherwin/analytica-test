@@ -1,0 +1,48 @@
+{ Analytica Model Simple_Analytica_model, encoding="UTF-8" }
+SoftwareVersion 6.6.4
+
+
+{ System Variables with non-default values: }
+SampleSize := 1000
+TypeChecking := 1
+Checking := 1
+SaveOptions := 2
+SaveValues := 0
+
+DisplayInputs Object: Library AI_Assistant, Function Append_to_chat_window, Button Adjust_items_under, Variable Asst_response_chunks, Function Append_chunk_to_text, Function append_to_chat_history, Variable asst_response, Decision Use_server_to_answer, Function Process_prompt, Variable chat_hist_json, Variable ui_Context_json, Function Process_Log_callback, Variable Session_state, Function DoClientCommand, Constant Professional_edition_apology, Variable Unavail_in_edition, Constant Professional_apology_URL, Variable top_level_model, Variable Cxt_current_module, Button Use_context_state
+DisplayOutputs Object: Function Do_submit_question, Variable Last_Process_Prompt_log
+DisplayInputs Function: Library AI_Assistant, Function AI_Assistant::Append_to_chat_window, Button AI_Assistant::Adjust_items_under, Variable AI_Assistant::Asst_response_chunks, Function AI_Assistant::Append_chunk_to_text, Function AI_Assistant::append_to_chat_history, Variable AI_Assistant::asst_response, Decision AI_Assistant::Use_server_to_answer, Function AI_Assistant::Process_prompt, Variable AI_Assistant::chat_hist_json, Variable AI_Assistant::ui_Context_json, Variable AI_Assistant::Session_state, Function AI_Assistant::DoClientCommand, Constant AI_Assistant::Professional_edition_apology, Variable AI_Assistant::Unavail_in_edition, Constant AI_Assistant::Professional_apology_URL, Variable AI_Assistant::top_level_model, Variable AI_Assistant::Cxt_current_module, Button AI_Assistant::Use_context_state
+DisplayOutputs Function: Function AI_Assistant::Do_submit_question, Variable AI_Assistant::Last_Process_Prompt_log
+{!-50299|DiagramColor Model: 65535,65535,65535}
+{!-50299|DiagramColor Module: 65535,65535,65535}
+{!-50299|DiagramColor LinkModule: 65535,65535,65535}
+{!-50299|DiagramColor Library: 65535,65535,65535}
+{!-50299|DiagramColor LinkLibrary: 65535,65535,65535}
+DisplayOutputs LinkLibrary: Function AI_Assistant::Do_submit_question
+{!-50299|DiagramColor Form: 65535,65535,65535}
+DisplayInputs Variable: Function AI_Assistant::Process_Log_callback
+DisplayOutputs Variable: Function AI_Assistant::Do_submit_question
+DisplayOutputs Decision: Function AI_Assistant::Do_submit_question
+DisplayOutputs Constant: Function AI_Assistant::Do_submit_question
+NodeInfo FormNode: 1,0,0,,0,0,,,,0,,,0
+DisplayOutputs Button: Function AI_Assistant::Do_submit_question
+{!-50299|NodeColor Text: 62258,62258,62258}
+
+{!-60000|Attribute AcpStyles}
+
+
+Model Simple_Analytica_model
+Author: Evan Sherwin~
+Lawrence Berkeley National Laboratory
+Date: Wed, Nov 12, 2025 1:52 PM
+FontStyle: Arial,15
+FileInfo: 0,Model Simple_Analytica_model,2,2,0,0,G:\Other computers\My Laptop\PycharmProjects\analytica-test\Simple Analytica model.ana
+
+Variable First_module
+Title: First module
+Definition: 1 + 1
+NodeLocation: 128,64,1
+NodeSize: 64,24
+
+Close Simple_Analytica_model
+
